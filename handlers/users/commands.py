@@ -5,6 +5,8 @@ from aiogram import types
 import sqlite3
 
 
+
+
 @dp.message_handler(commands='kun')
 async def kun(message: types.Message):
     conn = sqlite3.connect('yoqlama.db')
