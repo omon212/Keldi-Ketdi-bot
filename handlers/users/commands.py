@@ -26,6 +26,8 @@ async def kun(message: types.Message):
 
 
 
+
+
 @dp.message_handler(commands='7kun')
 async def haftalik(message: types.Message):
     import datetime
