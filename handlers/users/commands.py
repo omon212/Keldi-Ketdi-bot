@@ -22,6 +22,10 @@ async def kun(message: types.Message):
     # await message.answer(f"O`quvchi Omonullo Raimkulov\n\nKeldi: {result[0][3]}\nKetdi: {result[0][4]}")
 
 
+
+
+
+
 @dp.message_handler(commands='7kun')
 async def haftalik(message: types.Message):
     import datetime
